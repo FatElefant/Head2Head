@@ -1,0 +1,38 @@
+h1  {
+  color: darkgreen;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  font-family: arial, sans-serif;
+}
+
+div {
+  height: 100px;
+  width: 1000px;
+  background-color: lightgreen;
+  text-align: center;
+  margin: 5%;
+  padding-top: 50px;
+  border: 20px dashed darkgreen;
+  border-radius: 50%;
+}
+
+table {
+  border: 2px solid darkgreen;
+  border-collapse: collapse;
+  width: 90%;
+  margin-left: 50px;
+}
+
+th,td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+th {
+  background-color: lightgreen;
+}
+
+.highlight {
+  background-color: yellow;
+}
