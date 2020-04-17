@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+    Head to head
+    </title>
+    <! Can put style tags in the header, then they will apply to the whole body>
+    <link rel="stylesheet" href="TwoPlayerCardGame_Stylin.css">
+  </head>
+
+  <body>
+    <h1>
+      This page will outline the rules to the best two player card game you have ever played!
+    </h1>
+    <h2>
+      The issue with two player card games.
+    </h2>
+      <p>The problem with two player card games is that they tend to lack the need to think very much.</P>
+      <p>
+        <! Pic has height controlled, width is automatic.>
+        <img src="FullDeck.png" height="250">
+      </p>
+      <p>
+        <div>
+        Interested in signing up for our league?<br>
+        <form>
+          Username: <input type="text" placeholder="What should we call you?" name="Username"><br>
+          Email: <input type="email" placeholder="youremail@youknow.whatever" name="Email"><br>
+          <button>Submit!</button>
+        </form>
+        </div>
+      </p>
+    <h3>
+      Our objective.
+    </h3>
+      This game will attempt to overcome that issue by combining several common two player games into one, pulling in the <span class="highlight">best parts</span> of other games into a single game.
+      The games we will attempt to combine are:
+      <ul>
+        <li>Contract Whist</li>
+        <li>Rummy</li>
+        <li>Memory</li>
+      </ul>
+      <p>
+        <! Here the picture adjusts to the size of the webpage.>
+        <img src="CardHand_Straight.jpeg" width=70%>
+      </p>
+      <p>
+        <! Tables: th - "table header", tr - "table row", td - "table data">
+        <table>
+          <tr>
+            <th>Phase</th>
+            <th>Gameplay Explanation</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Seperate the deck into numbers 2 - 10 and face cards with aces. Shuffle the face cards and deal them face down in a four by four grid. Shuffle the 36 number cards, deal 16 to each player and the remaining four face down.</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Players look at their hands and discard four cards to form their "contract". Once both contracts have been made, dealer calls trumps. After trumps have been called, reveal the four facedown cards as the dummy. These cards are ordered.</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Whist is now played with the lead starting at the non-dealer player. The leader can choose to end any trick by playing the top card of the dummy. If the dummy wins the trick, that trick is not counted to anyone's take and the lead is passed back to the leader of the last trick.</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>For players who make their contract (in order of who took most tricks), the player may do one of the following: secretly peak at the memory card (they can peak at as many as the number of tricks they took), play memory (revealing in total a number of cards equal to the difference in the number of tricks taken), or shuffle the remaining memory cards.</td>
+          </tr>
+        </table>
+      </p>
+      <h3>Game objective</h3>
+      <p>
+        A player wins if they collect a family of the same suit (J, Q and K).<br>
+        Once you have taken a pair of a certain rank, you are forbidden from taking the remaining pair of that rank.<br>
+        In the case where both players happen to take the same number of tricks (so that a 'round winner' cannot be determined), each player randomly steals that many royal cards from their opponent.<br>
+        After the memory round, a player may exchange a pair of aces to shuffle an even number of their royals back into the memory cards.<br>
+        They could alternatively choose to exchange four aces to shuffle all of their opponents cards back into the memory pile.
+      </p>
+  </body>
+</html>
